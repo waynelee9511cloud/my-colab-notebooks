@@ -1,0 +1,102 @@
+SCREENSHOT REQUIREMENTS LIST
+================================================================================
+
+Total Screenshots Needed: 16
+Generated: 2025-11-18 03:59:14
+
+1. Section: System Access
+   Step: Step 1
+   Description: Screenshot showing navigate to the system url
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+2. Section: System Access
+   Step: Step 2
+   Description: Screenshot showing enter credentials
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+3. Section: System Access
+   Step: Step 3
+   Description: Screenshot showing two-factor authentication (if applicable)
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+4. Section: System Access
+   Step: Step 4
+   Description: Screenshot showing click login
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+5. Section: Navigation
+   Step: Main Interface
+   Description: Screenshot showing the main interface with all components labeled
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+6. Section: Navigation
+   Step: Patient Selection
+   Description: Screenshot showing patient list and selection process
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+7. Section: Data Entry - Demographics
+   Step: Form Access
+   Description: Screenshot showing how to access Demographics
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+8. Section: Data Entry - Demographics
+   Step: Completed Form
+   Description: Screenshot showing completed Demographics with all fields filled
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+9. Section: Data Entry - Vital Signs
+   Step: Form Access
+   Description: Screenshot showing how to access Vital Signs
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+10. Section: Data Entry - Vital Signs
+   Step: Completed Form
+   Description: Screenshot showing completed Vital Signs with all fields filled
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+11. Section: Data Entry - Adverse Events
+   Step: Form Access
+   Description: Screenshot showing how to access Adverse Events
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+12. Section: Data Entry - Adverse Events
+   Step: Completed Form
+   Description: Screenshot showing completed Adverse Events with all fields filled
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+13. Section: Query Management
+   Step: Query List
+   Description: Screenshot showing the query list with filters and status indicators
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+14. Section: Query Management
+   Step: Query Response
+   Description: Screenshot showing the query response interface with all fields
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+15. Section: Report Generation
+   Step: Report Parameters
+   Description: Screenshot showing report generation interface with parameter selection
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------
+16. Section: Report Generation
+   Step: Sample Report
+   Description: Screenshot showing a sample generated report with key features highlighted
+   Dimensions: 6.0" x 4.0"
+   Status: Pending
+--------------------------------------------------------------------------------

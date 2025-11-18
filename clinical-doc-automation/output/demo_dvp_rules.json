@@ -1,0 +1,318 @@
+[
+  {
+    "rule_id": "REQ-0001",
+    "description": "Check that Subject ID (subject_id) in Demographics is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Subject ID.",
+    "validation_type": "Required Field",
+    "form_name": "Demographics",
+    "field_name": "subject_id",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0002",
+    "description": "Check that Age (age) in Demographics is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Age.",
+    "validation_type": "Required Field",
+    "form_name": "Demographics",
+    "field_name": "age",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0003",
+    "description": "Check that Weight (weight) in Demographics is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Weight.",
+    "validation_type": "Required Field",
+    "form_name": "Demographics",
+    "field_name": "weight",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0004",
+    "description": "Check that Height (height) in Demographics is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Height.",
+    "validation_type": "Required Field",
+    "form_name": "Demographics",
+    "field_name": "height",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0005",
+    "description": "Check that Informed Consent Date (consent_date) in Informed Consent is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Informed Consent Date.",
+    "validation_type": "Required Field",
+    "form_name": "Informed Consent",
+    "field_name": "consent_date",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0006",
+    "description": "Check that Visit Date (visit_date) in Vital Signs is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Visit Date.",
+    "validation_type": "Required Field",
+    "form_name": "Vital Signs",
+    "field_name": "visit_date",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0007",
+    "description": "Check that Systolic Blood Pressure (systolic_bp) in Vital Signs is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Systolic Blood Pressure.",
+    "validation_type": "Required Field",
+    "form_name": "Vital Signs",
+    "field_name": "systolic_bp",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0008",
+    "description": "Check that Diastolic Blood Pressure (diastolic_bp) in Vital Signs is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Diastolic Blood Pressure.",
+    "validation_type": "Required Field",
+    "form_name": "Vital Signs",
+    "field_name": "diastolic_bp",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0009",
+    "description": "Check that Heart Rate (heart_rate) in Vital Signs is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Heart Rate.",
+    "validation_type": "Required Field",
+    "form_name": "Vital Signs",
+    "field_name": "heart_rate",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0010",
+    "description": "Check that Laboratory Test Date (lab_date) in Laboratory is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Laboratory Test Date.",
+    "validation_type": "Required Field",
+    "form_name": "Laboratory",
+    "field_name": "lab_date",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0011",
+    "description": "Check that Serum Creatinine (creatinine) in Laboratory is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Serum Creatinine.",
+    "validation_type": "Required Field",
+    "form_name": "Laboratory",
+    "field_name": "creatinine",
+    "details": {}
+  },
+  {
+    "rule_id": "REQ-0012",
+    "description": "Check that Did Adverse Event Occur (ae_occurred) in Adverse Events is not missing",
+    "severity": "Critical",
+    "query_text": "Please provide the missing value for Did Adverse Event Occur.",
+    "validation_type": "Required Field",
+    "form_name": "Adverse Events",
+    "field_name": "ae_occurred",
+    "details": {}
+  },
+  {
+    "rule_id": "RNG-0013",
+    "description": "Check that Age (age) is between 18 and 75 years",
+    "severity": "Major",
+    "query_text": "Please verify Age. The value is outside the expected range (between 18 and 75 years).",
+    "validation_type": "Range Check",
+    "form_name": "Demographics",
+    "field_name": "age",
+    "details": {
+      "min_value": 18,
+      "max_value": 75,
+      "units": "years"
+    }
+  },
+  {
+    "rule_id": "RNG-0014",
+    "description": "Check that Weight (weight) is between 40 and 150 kg",
+    "severity": "Major",
+    "query_text": "Please verify Weight. The value is outside the expected range (between 40 and 150 kg).",
+    "validation_type": "Range Check",
+    "form_name": "Demographics",
+    "field_name": "weight",
+    "details": {
+      "min_value": 40,
+      "max_value": 150,
+      "units": "kg"
+    }
+  },
+  {
+    "rule_id": "RNG-0015",
+    "description": "Check that Height (height) is between 140 and 210 cm",
+    "severity": "Major",
+    "query_text": "Please verify Height. The value is outside the expected range (between 140 and 210 cm).",
+    "validation_type": "Range Check",
+    "form_name": "Demographics",
+    "field_name": "height",
+    "details": {
+      "min_value": 140,
+      "max_value": 210,
+      "units": "cm"
+    }
+  },
+  {
+    "rule_id": "RNG-0016",
+    "description": "Check that Systolic Blood Pressure (systolic_bp) is between 90 and 200 mmHg",
+    "severity": "Major",
+    "query_text": "Please verify Systolic Blood Pressure. The value is outside the expected range (between 90 and 200 mmHg).",
+    "validation_type": "Range Check",
+    "form_name": "Vital Signs",
+    "field_name": "systolic_bp",
+    "details": {
+      "min_value": 90,
+      "max_value": 200,
+      "units": "mmHg"
+    }
+  },
+  {
+    "rule_id": "RNG-0017",
+    "description": "Check that Diastolic Blood Pressure (diastolic_bp) is between 50 and 130 mmHg",
+    "severity": "Major",
+    "query_text": "Please verify Diastolic Blood Pressure. The value is outside the expected range (between 50 and 130 mmHg).",
+    "validation_type": "Range Check",
+    "form_name": "Vital Signs",
+    "field_name": "diastolic_bp",
+    "details": {
+      "min_value": 50,
+      "max_value": 130,
+      "units": "mmHg"
+    }
+  },
+  {
+    "rule_id": "RNG-0018",
+    "description": "Check that Heart Rate (heart_rate) is between 40 and 150 bpm",
+    "severity": "Major",
+    "query_text": "Please verify Heart Rate. The value is outside the expected range (between 40 and 150 bpm).",
+    "validation_type": "Range Check",
+    "form_name": "Vital Signs",
+    "field_name": "heart_rate",
+    "details": {
+      "min_value": 40,
+      "max_value": 150,
+      "units": "bpm"
+    }
+  },
+  {
+    "rule_id": "RNG-0019",
+    "description": "Check that Serum Creatinine (creatinine) is between 0.5 and 3.0 mg/dL",
+    "severity": "Major",
+    "query_text": "Please verify Serum Creatinine. The value is outside the expected range (between 0.5 and 3.0 mg/dL).",
+    "validation_type": "Range Check",
+    "form_name": "Laboratory",
+    "field_name": "creatinine",
+    "details": {
+      "min_value": 0.5,
+      "max_value": 3.0,
+      "units": "mg/dL"
+    }
+  },
+  {
+    "rule_id": "DAT-0020",
+    "description": "Visit date should be on or after informed consent date",
+    "severity": "Major",
+    "query_text": "Please verify the date for Visit Date. Visit date should be on or after informed consent date.",
+    "validation_type": "Date Consistency",
+    "form_name": "Vital Signs",
+    "field_name": "visit_date",
+    "details": {
+      "reference_field": "inform_consent_date",
+      "check_type": "on_or_after"
+    }
+  },
+  {
+    "rule_id": "DAT-0021",
+    "description": "Adverse event start date should be on or before end date",
+    "severity": "Major",
+    "query_text": "Please verify the date for AE Start Date. Adverse event start date should be on or before end date.",
+    "validation_type": "Date Consistency",
+    "form_name": "Adverse Events",
+    "field_name": "ae_start_date",
+    "details": {
+      "reference_field": "ae_end_date",
+      "check_type": "on_or_before"
+    }
+  },
+  {
+    "rule_id": "LOG-0022",
+    "description": "If Did Adverse Event Occur is 'Yes', associated details must be provided",
+    "severity": "Major",
+    "query_text": "Please provide details for Did Adverse Event Occur as it is marked as 'Yes'.",
+    "validation_type": "Logical Check",
+    "form_name": "Adverse Events",
+    "field_name": "ae_occurred",
+    "details": {
+      "condition": "value = 'Yes'"
+    }
+  },
+  {
+    "rule_id": "PRO-0023",
+    "description": "Check that inclusion criteria are met at screening",
+    "severity": "Critical",
+    "query_text": "Please verify that all inclusion criteria were met. A protocol deviation may have occurred.",
+    "validation_type": "Protocol Deviation",
+    "form_name": null,
+    "field_name": null,
+    "details": {}
+  },
+  {
+    "rule_id": "PRO-0024",
+    "description": "Check that exclusion criteria are not violated",
+    "severity": "Critical",
+    "query_text": "Please verify that no exclusion criteria were violated. A protocol deviation may have occurred.",
+    "validation_type": "Protocol Deviation",
+    "form_name": null,
+    "field_name": null,
+    "details": {}
+  },
+  {
+    "rule_id": "PRO-0025",
+    "description": "Check that visit windows are within protocol-specified ranges",
+    "severity": "Major",
+    "query_text": "Please verify the visit date. It appears to be outside the protocol-specified window.",
+    "validation_type": "Protocol Deviation",
+    "form_name": null,
+    "field_name": null,
+    "details": {}
+  },
+  {
+    "rule_id": "PRO-0026",
+    "description": "Check that prohibited medications were not taken",
+    "severity": "Major",
+    "query_text": "Please verify the concomitant medication. It may be prohibited per protocol.",
+    "validation_type": "Protocol Deviation",
+    "form_name": null,
+    "field_name": null,
+    "details": {}
+  },
+  {
+    "rule_id": "PRO-0027",
+    "description": "Verify systolic BP ≥140 mmHg or diastolic BP ≥90 mmHg at screening (inclusion criteria)",
+    "severity": "Critical",
+    "query_text": "Please verify blood pressure meets inclusion criteria (SBP ≥140 or DBP ≥90 mmHg).",
+    "validation_type": "Protocol Deviation",
+    "form_name": "Vital Signs",
+    "field_name": null,
+    "details": {}
+  },
+  {
+    "rule_id": "PRO-0028",
+    "description": "Verify creatinine is within acceptable range per protocol (exclusion criteria)",
+    "severity": "Critical",
+    "query_text": "Please verify creatinine level. Subjects with creatinine >2.5 mg/dL should be excluded.",
+    "validation_type": "Protocol Deviation",
+    "form_name": "Laboratory",
+    "field_name": "creatinine",
+    "details": {}
+  }
+]
