@@ -1,0 +1,186 @@
+{
+  "company_info": {
+    "name": "Bestat Inc.",
+    "full_name": "Bestat Clinical Research Organization",
+    "website": "www.bestat.com",
+    "established": "2010"
+  },
+  "page_setup": {
+    "size": "A4",
+    "width_inches": 8.27,
+    "height_inches": 11.69,
+    "orientation": "portrait",
+    "margins": {
+      "top_inches": 1.0,
+      "bottom_inches": 1.0,
+      "left_inches": 1.0,
+      "right_inches": 1.0
+    },
+    "header_distance_inches": 0.5,
+    "footer_distance_inches": 0.5
+  },
+  "fonts": {
+    "title": {
+      "name": "Arial",
+      "size": 18,
+      "bold": true,
+      "italic": false,
+      "color": {
+        "r": 0,
+        "g": 51,
+        "b": 153
+      },
+      "alignment": "center"
+    },
+    "heading1": {
+      "name": "Arial",
+      "size": 16,
+      "bold": true,
+      "italic": false,
+      "color": {
+        "r": 0,
+        "g": 51,
+        "b": 153
+      },
+      "alignment": "left"
+    },
+    "heading2": {
+      "name": "Arial",
+      "size": 14,
+      "bold": true,
+      "italic": false,
+      "color": {
+        "r": 0,
+        "g": 102,
+        "b": 204
+      },
+      "alignment": "left"
+    },
+    "heading3": {
+      "name": "Arial",
+      "size": 12,
+      "bold": true,
+      "italic": false,
+      "color": {
+        "r": 0,
+        "g": 102,
+        "b": 204
+      },
+      "alignment": "left"
+    },
+    "body": {
+      "name": "Calibri",
+      "size": 11,
+      "bold": false,
+      "italic": false,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      },
+      "alignment": "justify"
+    },
+    "table_header": {
+      "name": "Arial",
+      "size": 10,
+      "bold": true,
+      "italic": false,
+      "color": {
+        "r": 255,
+        "g": 255,
+        "b": 255
+      },
+      "background_color": {
+        "r": 0,
+        "g": 51,
+        "b": 153
+      }
+    },
+    "table_body": {
+      "name": "Calibri",
+      "size": 10,
+      "bold": false,
+      "italic": false,
+      "color": {
+        "r": 0,
+        "g": 0,
+        "b": 0
+      }
+    }
+  },
+  "colors": {
+    "primary": {
+      "r": 0,
+      "g": 51,
+      "b": 153
+    },
+    "secondary": {
+      "r": 0,
+      "g": 102,
+      "b": 204
+    },
+    "accent": {
+      "r": 255,
+      "g": 153,
+      "b": 0
+    },
+    "text": {
+      "r": 0,
+      "g": 0,
+      "b": 0
+    },
+    "background": {
+      "r": 255,
+      "g": 255,
+      "b": 255
+    },
+    "confidential": {
+      "r": 255,
+      "g": 0,
+      "b": 0
+    }
+  },
+  "paragraph_spacing": {
+    "line_spacing": 1.15,
+    "before_pt": 0,
+    "after_pt": 10,
+    "first_line_indent_inches": 0
+  },
+  "header": {
+    "enabled": true,
+    "logo_position": "left",
+    "logo_width_inches": 1.5,
+    "logo_height_inches": 0.6,
+    "text_position": "right",
+    "font_name": "Arial",
+    "font_size": 9,
+    "include_date": true,
+    "include_protocol_number": true,
+    "include_version": true,
+    "separator_line": true
+  },
+  "footer": {
+    "enabled": true,
+    "font_name": "Arial",
+    "font_size": 8,
+    "show_confidential": true,
+    "confidential_position": "left",
+    "show_page_numbers": true,
+    "page_number_position": "right",
+    "page_number_format": "Page {page} of {total}",
+    "show_date": true,
+    "date_position": "center",
+    "separator_line": true
+  },
+  "table_style": {
+    "default_style": "Light Grid Accent 1",
+    "border_color": {
+      "r": 0,
+      "g": 51,
+      "b": 153
+    },
+    "border_width": 0.5,
+    "cell_padding_inches": 0.05,
+    "auto_fit": true
+  }
+}

@@ -1,0 +1,26 @@
+# Clinical Document Automation 依賴套件
+
+# PDF 處理
+pdfplumber>=0.10.0
+
+# Google Gemini API
+google-generativeai>=0.3.0
+
+# Word 文件處理 (Word Formatter)
+python-docx>=0.8.11  # Word文件建立和格式化
+Pillow>=9.0.0  # 圖片處理（用於Logo等）
+lxml>=4.9.0  # XML處理（python-docx依賴）
+
+# Web UI
+gradio>=4.0.0  # Web 介面框架
+
+# 其他常用套件（可選）
+python-dotenv>=1.0.0  # 用於管理環境變數
+pandas>=2.0.0  # 資料處理
+openpyxl>=3.1.0  # Excel 輸出（可選）
+
+# 開發依賴（測試和文檔）
+pytest>=7.0.0  # 單元測試
+pytest-cov>=4.0.0  # 測試覆蓋率
+black>=22.0.0  # 代碼格式化
+flake8>=5.0.0  # 代碼檢查
